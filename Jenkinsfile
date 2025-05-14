@@ -15,7 +15,7 @@ pipeline {
         // Étape 1 : Récupération du code source depuis GitHub
         stage("Checkout") {
             steps {
-                git branch: 'master', url: 'https://github.com/ditdevops1/ci-cd-html-css-demo.git'
+                git branch: 'master', url: 'https://github.com/AminataSyll2023/ci-cd-html-css.git'
             }
         }
         // Étape 2 : Exécution des tests
